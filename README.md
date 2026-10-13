@@ -8,7 +8,7 @@ The purpose of PharmaTrac is to replace the existing manual process used in hosp
 
 ## Key Features
 
-**User Authentication:** Users with valid employee credentials can access the application and utilize its features. When creating user accounts, passwords are securely hashed using the SHA-256 hash algorithm for enhanced security.
+**User Authentication:** Users log in with employee credentials to access the application.
 
 **Delivery Requisitions:** Users can create, edit, sign off, deliver orders, and return orders to the pending queue.
 
@@ -22,11 +22,19 @@ The purpose of PharmaTrac is to replace the existing manual process used in hosp
 
 **Additional Features:** PharmaTrac offers additional features such as light and dark mode, language switching (utilizing LibreTranslate API: https://github.com/dynomake/libretranslate-java.git), and integration with Algolia Search API (https://www.algolia.com/developers/search-api/) for enhanced search capabilities.
 
+## My Contribution
+
+This application was developed as a team project for CSC 325. I implemented the login and signup features, including the JavaFX user interfaces and the Java logic for account creation and password authentication.
+
 ## Technologies Used
-**PharmaTrac is built using the following technologies:**
-- IntelliJ: Integrated Development Environment (IDE) for Java development.
-- SceneBuilder: Drag-and-drop GUI design tool for JavaFX applications.
-- Google Firebase: Backend infrastructure for authentication, database management, and real-time updates.
+
+- **Java:** Application logic.
+- **JavaFX and CSS:** Desktop user interface and styling.
+- **Google Firebase:** Data storage and real-time updates.
+- **Algolia:** Order search functionality.
+- **LibreTranslate:** Language translation.
+- **Maven:** Dependency and build management.
+- **IntelliJ IDEA and Scene Builder:** Development and interface design tools.
 
 ## How to Start
 **To get started with PharmaTrac, follow these steps:**
