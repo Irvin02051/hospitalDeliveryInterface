@@ -24,7 +24,13 @@ The purpose of PharmaTrac is to replace the existing manual process used in hosp
 
 ## My Contribution
 
-This application was developed as a team project for CSC 325. I implemented the login and signup features, including the JavaFX user interfaces and the Java logic for account creation and password authentication.
+As part of the CSC 325 project team, I:
+
+- Developed login and account-creation interfaces using JavaFX and FXML, with Java logic connected to Firebase-backed employee records.
+- Implemented input validation, duplicate-account checks, and user-facing error messages.
+- Added password hashing and credential verification for the application's custom login flow.
+- Implemented login-status tracking and checks for accounts already marked as logged in.
+- Updated interface controls based on login status and administrator or staff account type.
 
 ## Technologies Used
 
@@ -39,6 +45,6 @@ This application was developed as a team project for CSC 325. I implemented the 
 ## How to Start
 **To get started with PharmaTrac, follow these steps:**
 - Clone the repository.
-- Set up Firebase authentication and database.
+- Configure Firebase credentials and the Firestore database.
 - Configure Algolia Search API.
 - Run the application using IntelliJ or your preferred IDE.
